@@ -17,6 +17,7 @@
 [![PEs](https://img.shields.io/badge/Total%20PEs-1%2C024-purple?style=flat-square)](.)
 [![Language](https://img.shields.io/badge/HDL-SystemVerilog-red?style=flat-square)](.)
 [![Paper](https://img.shields.io/badge/Paper-ISCAS%202024-yellow?style=flat-square)](.)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 > **25× less power than GPU** | **−89.7% cycles vs fixed SA** | **2.02 ms MobileViT-xxs inference**
 
@@ -448,6 +449,14 @@ vvp lego_tb +SEED=12345
 
 ---
 
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
 ## 📚 Reference
 
 ```bibtex
@@ -460,11 +469,9 @@ vvp lego_tb +SEED=12345
   doi       = {10.1109/ISCAS58744.2024.10558190}
 }
 ```
-
 ---
-
 <div align="center">
 
-*Built in SystemVerilog · Synthesised on TSMC 40nm · 1,024 PEs · 1.2 TOPS*
+*Built in SystemVerilog · 1,024 PEs · 1.2 TOPS*
 
 </div>
