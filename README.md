@@ -88,6 +88,8 @@ Each PE participates in three independent data paths inside the systolic mesh.
 
 This structure enables **fully pipelined matrix multiplication**.
 
+![SA_3x3.PNG](Diagrams/SA_3x3.PNG)
+
 Data precision:
 
 | Signal | Bit-width |
@@ -126,8 +128,6 @@ This mechanism removes the need for explicit matrix transpose in memory during a
 | **LOAD_W** | Load weights into `W_reg` |
 | **FEED_A** | Perform MAC operations |
 | **DRAIN** | Flush remaining partial sums through the pipeline |
-
-![SA_3x3.PNG](Diagrams/SA_3x3.PNG)
 
 ![PE_Data_Path](Diagrams/PE_Data_Path.png)
 
