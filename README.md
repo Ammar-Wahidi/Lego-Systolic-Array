@@ -127,6 +127,8 @@ This mechanism removes the need for explicit matrix transpose in memory during a
 | **FEED_A** | Perform MAC operations |
 | **DRAIN** | Flush remaining partial sums through the pipeline |
 
+![SA_3x3.PNG](Diagrams/SA_3x3.PNG)
+
 ![PE_Data_Path](Diagrams/PE_Data_Path.png)
 
 ---
@@ -199,7 +201,7 @@ Output: psum[0:N-1] = RU + RD + LU + LD  — 16 values
 > 🎯 Best for: `A·v` in attention, depth-wise conv — **>60% less memory access vs TYPE 1**
 
 ---
-### Lego SA Timming
+## 🕒Lego SA Timming
 
 ![PE_Timing](Diagrams/PE_Timing.png)
 
